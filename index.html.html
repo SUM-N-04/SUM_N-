@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name | Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #020617;
+    }
+
+    header h1 {
+      color: #38bdf8;
+    }
+
+    nav a {
+      color: #cbd5f5;
+      margin-left: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero span {
+      color: #38bdf8;
+    }
+
+    .hero p {
+      margin-top: 10px;
+      color: #94a3b8;
+    }
+
+    section {
+      padding: 60px 50px;
+    }
+
+    h3 {
+      margin-bottom: 20px;
+      color: #38bdf8;
+    }
+
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #020617;
+      padding: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background: #1e293b;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SUM_N</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#achievements">achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Hello, I'm <span>Suman Dahal</span></h2>
+  <p>Student | Begginer Programmer</p>
+</section>
+
+<section id="about">
+  <h3>About Me</h3>
+  <p>Im Suman Dahal, a student from Kathmandu, and Im getting into programming and tech stuff.
+     Right now, Im learning the basics of web development.
+As a beginner programmer, I enjoy experimenting with code, solving problems, and continuously improving my skills. 
+Im eager to learn, gain experience, and gradually build my knowledge to become more confident in programming.
+  </p>
+</section>
+
+<section id="skills">
+  <h3>Skills</h3>
+  <div class="skills">
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+  </div>
+</section>
+<section id="hobbies">
+  <h3>Hobbies</h3>
+  <div class="Hobbies">
+    <div class="card">Traning</div>
+    <div class="card">Running</div>
+     <div class="card">Music</div>
+    <div class="card">Anime</div>
+  </div>
+</section>
+
+<section id="achievements">
+  <h3>Achievements</h3>
+  <div class="achievements">
+    <div class="card">
+      <h4>Karate</h4>
+      <p>I started karate when i was 10 years old. And i learned it for over 6 years and achieved black belt.
+        During those time I went for many tournaments including Nationals and Internations aswell.
+        I played representing my country "Nepal" 2times in 55 kg weight category.  
+      </p>
+    </div>
+    <div class="card">
+      <h4>Kick Boxing</h4>
+      <p>I stared playing kick boxing after 3 years of joining karate class. And won few medals in nationals level tournaments.
+        Kick Boxing is have been my favourite sports aswell as it trains my body and mind both.
+      </p>
+    </div>
+</section>
+
+<section id="contact">
+  <h3>Contact</h3>
+  <p>Email: suman.dahal@kavyaschool.edu.np</p>
+</section>
+
+<footer>
+  <p>© 2026 Suman Dahal</p>
+</footer>
+
+</body>
+</html>
